@@ -31,7 +31,7 @@ export default function Cart() {
           <HiOutlineShoppingCart size="25" />
         </Button>
       </SheetTrigger>
-      <SheetContent className="overflow-auto relative">
+      <SheetContent className="w-[600px] overflow-auto relative">
         <SheetHeader>
           <SheetTitle>Cart</SheetTitle>
           <h1>Total: {total.toFixed(2)}</h1>
